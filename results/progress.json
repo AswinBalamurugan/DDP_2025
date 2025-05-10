@@ -1,0 +1,256 @@
+[
+  {
+    "timestamp": "2025-05-08 18:23:09",
+    "dataset": "Bitcoin-Alpha",
+    "event": "evaluation_start"
+  },
+  {
+    "timestamp": "2025-05-08 18:23:09",
+    "dataset": "Bitcoin-Alpha",
+    "event": "prune_skip",
+    "original_nodes": 3783,
+    "original_edges": 14124
+  },
+  {
+    "timestamp": "2025-05-08 19:01:55",
+    "dataset": "Bitcoin-Alpha",
+    "event": "evaluation_complete",
+    "result_files": {
+      "data": "csvs/Bitcoin-Alpha_edge_recovery.csv",
+      "plot": "plots/Bitcoin-Alpha_recovery_plot.png"
+    }
+  },
+  {
+    "timestamp": "2025-05-08 19:01:58",
+    "dataset": "Bio-Proteins",
+    "event": "evaluation_start"
+  },
+  {
+    "timestamp": "2025-05-08 19:01:58",
+    "dataset": "Bio-Proteins",
+    "event": "node_prune",
+    "original": 15229,
+    "pruned": 5000,
+    "reduction_pct": 67.2
+  },
+  {
+    "timestamp": "2025-05-08 19:01:58",
+    "dataset": "Bio-Proteins",
+    "event": "edge_prune",
+    "original": 26242,
+    "pruned": 15000,
+    "reduction_pct": 42.8
+  },
+  {
+    "timestamp": "2025-05-08 19:01:58",
+    "dataset": "Bio-Proteins",
+    "event": "prune_complete",
+    "final_nodes": 3870,
+    "final_edges": 15000,
+    "original_nodes": 15229,
+    "original_edges": 245952
+  },
+  {
+    "timestamp": "2025-05-08 19:52:35",
+    "dataset": "Bio-Proteins",
+    "event": "evaluation_complete",
+    "result_files": {
+      "data": "csvs/Bio-Proteins_edge_recovery.csv",
+      "plot": "plots/Bio-Proteins_recovery_plot.png"
+    }
+  },
+  {
+    "timestamp": "2025-05-08 19:52:35",
+    "dataset": "HepTh-Collab",
+    "event": "evaluation_start"
+  },
+  {
+    "timestamp": "2025-05-08 19:52:35",
+    "dataset": "HepTh-Collab",
+    "event": "node_prune",
+    "original": 27770,
+    "pruned": 5000,
+    "reduction_pct": 82.0
+  },
+  {
+    "timestamp": "2025-05-08 19:52:35",
+    "dataset": "HepTh-Collab",
+    "event": "prune_complete",
+    "final_nodes": 5000,
+    "final_edges": 11104,
+    "original_nodes": 27770,
+    "original_edges": 352324
+  },
+  {
+    "timestamp": "2025-05-08 21:20:59",
+    "dataset": "HepTh-Collab",
+    "event": "evaluation_complete",
+    "result_files": {
+      "data": "csvs/HepTh-Collab_edge_recovery.csv",
+      "plot": "plots/HepTh-Collab_recovery_plot.png"
+    }
+  },
+  {
+    "timestamp": "2025-05-08 21:21:00",
+    "dataset": "Transport",
+    "event": "evaluation_start"
+  },
+  {
+    "timestamp": "2025-05-08 21:21:00",
+    "dataset": "Transport",
+    "event": "edge_prune",
+    "original": 19205,
+    "pruned": 15000,
+    "reduction_pct": 21.9
+  },
+  {
+    "timestamp": "2025-05-08 21:21:00",
+    "dataset": "Transport",
+    "event": "prune_complete",
+    "final_nodes": 3162,
+    "final_edges": 15000,
+    "original_nodes": 3334,
+    "original_edges": 19205
+  },
+  {
+    "timestamp": "2025-05-08 21:43:34",
+    "dataset": "Transport",
+    "event": "evaluation_complete",
+    "result_files": {
+      "data": "csvs/Transport_edge_recovery.csv",
+      "plot": "plots/Transport_recovery_plot.png"
+    }
+  },
+  {
+    "timestamp": "2025-05-08 21:43:34",
+    "dataset": "Enron-Email",
+    "event": "evaluation_start"
+  },
+  {
+    "timestamp": "2025-05-08 21:43:34",
+    "dataset": "Enron-Email",
+    "event": "node_prune",
+    "original": 36692,
+    "pruned": 5000,
+    "reduction_pct": 86.4
+  },
+  {
+    "timestamp": "2025-05-08 21:43:34",
+    "dataset": "Enron-Email",
+    "event": "prune_complete",
+    "final_nodes": 5000,
+    "final_edges": 3001,
+    "original_nodes": 36692,
+    "original_edges": 183831
+  },
+  {
+    "timestamp": "2025-05-08 22:52:14",
+    "dataset": "Enron-Email",
+    "event": "evaluation_complete",
+    "result_files": {
+      "data": "csvs/Enron-Email_edge_recovery.csv",
+      "plot": "plots/Enron-Email_recovery_plot.png"
+    }
+  },
+  {
+    "timestamp": "2025-05-08 22:52:18",
+    "dataset": "EU-Email",
+    "event": "evaluation_start"
+  },
+  {
+    "timestamp": "2025-05-08 22:52:18",
+    "dataset": "EU-Email",
+    "event": "edge_prune",
+    "original": 16706,
+    "pruned": 15000,
+    "reduction_pct": 10.2
+  },
+  {
+    "timestamp": "2025-05-08 22:52:18",
+    "dataset": "EU-Email",
+    "event": "prune_complete",
+    "final_nodes": 988,
+    "final_edges": 15000,
+    "original_nodes": 1005,
+    "original_edges": 16706
+  },
+  {
+    "timestamp": "2025-05-08 22:53:17",
+    "dataset": "EU-Email",
+    "event": "evaluation_complete",
+    "result_files": {
+      "data": "csvs/EU-Email_edge_recovery.csv",
+      "plot": "plots/EU-Email_recovery_plot.png"
+    }
+  },
+  {
+    "timestamp": "2025-05-08 22:53:18",
+    "dataset": "Bitcoin-OTC",
+    "event": "evaluation_start"
+  },
+  {
+    "timestamp": "2025-05-08 22:53:18",
+    "dataset": "Bitcoin-OTC",
+    "event": "node_prune",
+    "original": 5881,
+    "pruned": 5000,
+    "reduction_pct": 15.0
+  },
+  {
+    "timestamp": "2025-05-08 22:53:18",
+    "dataset": "Bitcoin-OTC",
+    "event": "edge_prune",
+    "original": 15760,
+    "pruned": 15000,
+    "reduction_pct": 4.8
+  },
+  {
+    "timestamp": "2025-05-08 22:53:18",
+    "dataset": "Bitcoin-OTC",
+    "event": "prune_complete",
+    "final_nodes": 4616,
+    "final_edges": 15000,
+    "original_nodes": 5881,
+    "original_edges": 21492
+  },
+  {
+    "timestamp": "2025-05-08 23:59:44",
+    "dataset": "Bitcoin-OTC",
+    "event": "evaluation_complete",
+    "result_files": {
+      "data": "csvs/Bitcoin-OTC_edge_recovery.csv",
+      "plot": "plots/Bitcoin-OTC_recovery_plot.png"
+    }
+  },
+  {
+    "timestamp": "2025-05-08 23:59:51",
+    "dataset": "Reddit-Hyperlinks",
+    "event": "evaluation_start"
+  },
+  {
+    "timestamp": "2025-05-08 23:59:51",
+    "dataset": "Reddit-Hyperlinks",
+    "event": "node_prune",
+    "original": 33657,
+    "pruned": 5000,
+    "reduction_pct": 85.1
+  },
+  {
+    "timestamp": "2025-05-08 23:59:51",
+    "dataset": "Reddit-Hyperlinks",
+    "event": "prune_complete",
+    "final_nodes": 5000,
+    "final_edges": 2497,
+    "original_nodes": 33657,
+    "original_edges": 115405
+  },
+  {
+    "timestamp": "2025-05-09 01:10:26",
+    "dataset": "Reddit-Hyperlinks",
+    "event": "evaluation_complete",
+    "result_files": {
+      "data": "csvs/Reddit-Hyperlinks_edge_recovery.csv",
+      "plot": "plots/Reddit-Hyperlinks_recovery_plot.png"
+    }
+  }
+]
