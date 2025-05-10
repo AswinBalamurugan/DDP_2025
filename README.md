@@ -105,11 +105,11 @@ The pipeline is modular and follows these steps:
 
 ## Algorithm Explanations
 
-| Algorithm | Formula                                                                          | Intuition                                                                           |
+| Algorithm | Formula                                                                          | Intuition|
 | --------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **LHN**   | $\frac{\text{common\_neighbours}(u,v)}{\text{degree}(u) \cdot \text{degree}(v)}$ | Higher if nodes share many neighbours and have low degree.                          |
-| **RA**    | $\sum_{z \in \text{common\_neighbours}(u,v)} \frac{1}{\text{degree}(z)}$         | Nodes share rare neighbours, making them more likely to connect.                    |
-| **HITS**  | $\text{hub\_score}(u) \times \text{authority\_score}(v)$                         | Combines node roles as hubs (linking to others) and authorities (linked to).        |
+| **LHN**   | $\frac{common-neighbours(u,v)}{degree(u) \cdot degree(v)}$                        | Higher if nodes share many neighbours and have low degree.                          |
+| **RA**    | $\sum_{z \in \text{common-neighbours}(u,v)} \frac{1}{\text{degree}(z)}$         | Nodes share rare neighbours, making them more likely to connect.                    |
+| **HITS**  | $\text{hub-score}(u) \cdot \text{authority-score}(v)$                         | Combines node roles as hubs (linking to others) and authorities (linked to).        |
 | **Katz**  | $(I - \beta A)^{-1} - I$                                                         | Sums all paths between nodes, with shorter paths weighted more heavily.             |
 | **ACT**   | $\frac{1}{L^+[u,u] + L^+[v,v] - 2L^+[u,v]}$                                      | Measures expected random walk commute time; lower values indicate nodes are closer. |
 
