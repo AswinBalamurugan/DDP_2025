@@ -155,8 +155,8 @@ Confusion matrices are generated for each algorithm and edge removal percentage:
 Clone the repository:
 
 ```code
-git clone https://github.com/yourusername/link-prediction-framework.git
-cd link-prediction-framework
+git clone https://github.com/AswinBalamurugan/DDP_2025.git
+cd DDP_2025
 ```
 
 Install dependencies:
